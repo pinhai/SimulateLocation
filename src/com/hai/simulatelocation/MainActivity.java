@@ -67,7 +67,6 @@ public class MainActivity extends BaseActivity{
 			
 			@Override
 			public void run() {
-				// TODO Auto-generated method stub
 				GetNetIp("http://www.cmyip.com/");
 			}
 		}).start();
